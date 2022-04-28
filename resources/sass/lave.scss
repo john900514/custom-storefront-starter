@@ -1,0 +1,55 @@
+.noty_theme__lave.noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+
+  .noty_body {
+    padding: 10px;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  }
+
+  .noty_buttons {
+    padding: 10px;
+  }
+}
+
+.noty_theme__lave.noty_type__alert,
+.noty_theme__lave.noty_type__notification {
+  background-color: #416ba9;
+  color: #fff;
+
+  .noty_progressbar {
+    background-color: #fff;
+  }
+}
+
+.noty_theme__lave.noty_type__warning {
+  background-color: #eb5757;
+  color: #fff;
+}
+
+.noty_theme__lave.noty_type__error {
+  background-color: #152633;
+  color: #fff;
+
+  .noty_progressbar {
+    opacity: .4;
+  }
+}
+
+.noty_theme__lave.noty_type__info,
+.noty_theme__lave.noty_type__information {
+  background-color: #f637fd;
+  color: #fff;
+
+  .noty_progressbar {
+    opacity: .6;
+  }
+}
+
+.noty_theme__lave.noty_type__success {
+  background-color: #ff00f5;
+  color: #fff;
+}
