@@ -11,7 +11,7 @@ Object.entries(twColors).forEach(
 
 const colors = {
     ...twColors,
-    transparent: 'transparent',
+    transparent: "transparent",
     primary: {
         DEFAULT: "#416ba9",
         50: "#98C4F9",
@@ -75,9 +75,35 @@ module.exports = {
                 "2xs": ["0.6rem", { lineHeight: "0.75rem" }],
             },
             screens: {
-                lg: "1200px",
-                xl: "1400px",
-                "2xl": "1920px",
+                // English Breakpoints
+                watch: "100px",
+                nano: "324px",
+                micro: "368px",
+                mini: "500px",
+                small: "640px",
+                normal: "768px",
+                medium: "864px",
+                big: "1024px",
+                large: "1176px",
+                // Height Breakpoints
+                tall: { raw: "(min-width: 600px) and (max-width: 767px)" },
+                grande: { raw: "(min-width: 768px) and (max-width: 863px)" },
+                average: { raw: "(min-width: 864px) and (max-width: 1023px)" },
+                short: { raw: "(min-height: 350px)" },
+                derpy: { raw: "(min-height: 200px)" },
+                // "Standard" Breakpoints
+                "2xs": "300px",
+                xs: "400px",
+                "2sm": "500px",
+                sm: "640px",
+                md: "768px",
+                "2md": "864px",
+                lg: "1024px",
+                "2lg": "1176px ",
+                xl: "1280px",
+                "1440p": "1440px",
+                "2xl": "1536px",
+                "3xl": "1920px",
             },
             backgroundImage: (theme) => ({
                 "multiselect-caret": `url("${svgToDataUri(
@@ -127,16 +153,16 @@ module.exports = {
     daisyui: {
         themes: [
             {
-                lave: {
-                    "primary": "#416ba9",
-                    "secondary": "#29dff4",
-                    "accent": "#b99fe0",
-                    "neutral": "#898c8e",
+                shopify: {
+                    primary: "#416ba9",
+                    secondary: "#29dff4",
+                    accent: "#b99fe0",
+                    neutral: "#898c8e",
                     "base-100": "#707070",
-                    "info": "#f637fd",
-                    "success": "#ff00f5",
-                    "warning": "#eb5757",
-                    "error": "#152633",
+                    info: "#f637fd",
+                    success: "#ff00f5",
+                    warning: "#eb5757",
+                    error: "#152633",
                 },
             },
         ],

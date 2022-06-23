@@ -28,7 +28,9 @@
 </head>
 
 <body>
-@inertia
+<div>
+    @inertia
+</div>
 
 <div id="modalsGoHere"></div>
 </body>
