@@ -32,6 +32,7 @@
     @inertia
 </div>
 
+
 <div id="modalsGoHere"></div>
 </body>
 </html>

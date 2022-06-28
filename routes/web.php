@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', \App\Http\Controllers\HomeController::class.'@index');
+Route::get('/product', \App\Http\Controllers\Pages\ProductDescriptionController::class.'@index');
+Route::get('/about', \App\Http\Controllers\Pages\AboutController::class.'@index');
 Route::get('/sign-up', \App\Http\Controllers\Pages\PreviewLandingContoller::class.'@index');
 Route::post('/customer/lead', \App\Actions\Customers\Leads\PostLead::class);
